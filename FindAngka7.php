@@ -8,11 +8,10 @@ for($i=1; $i<=100; $i++){
   	if($slpInput[$a] == 7)
     {
     	$output++;
-      echo $i ."\n" ;
+      // echo $i ."\n" ;
       }
   }
 }
-// echo $output;
-// echo 'Total Angka 7 dari bilangan 1 - 100 adalah '.$output;
+echo 'Total Angka 7 dari bilangan 1 - 100 adalah '.$output;
 
 ?>
